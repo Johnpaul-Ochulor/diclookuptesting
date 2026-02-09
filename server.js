@@ -1,6 +1,8 @@
 
 import express from "express";
 import fs from " fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const dictionary_app = express();
 const PORT = 3000;
